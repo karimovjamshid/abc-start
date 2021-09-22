@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC Start</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="text-mainDark font-textFont overflow-x-hidden">
+    <!-- ========== Hero ========== -->
+    <header
+      class="
+        header
+        absolute
+        top-0
+        left-0
+        right-0
+        border-b
+        shadow-sm
+        transition-all
+        duration-300
+        z-[300]
+      "
+    >
+      <div class="container mx-4">
+        <nav class="flex justify-between items-center py-2">
+          <a
+            href="index.html"
+            data-scroll="#top"
+            class="mr-4 focus:outline-none"
+          >
+            <img src="img/logo.png" width="80px" alt="" />
+          </a>
+          <div
+            class="hidden md:flex justify-between max-w-xl items-center w-full"
+          >
+            <div class="nav-item" data-scroll="#top">Asosiy</div>
+            <div class="nav-item relative">
+              <div class="flex gap-2 items-center">
+                <div class="">Kurslar</div>
+                <div class="">
+                  <svg
+                    width="16"
+                    viewBox="0 0 32 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M0.521127 1.19444C1.05366 0.661903 1.88699 0.613491 2.47421 1.0492L2.64245 1.19444L15.5818 14.1331L28.5211 1.19444C29.0537 0.661903 29.887 0.613491 30.4742 1.0492L30.6424 1.19444C31.175 1.72697 31.2234 2.5603 30.7877 3.14752L30.6424 3.31576L16.6424 17.3158C16.1099 17.8483 15.2766 17.8967 14.6894 17.461L14.5211 17.3158L0.521127 3.31576C-0.0646595 2.72997 -0.0646595 1.78022 0.521127 1.19444Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="
+                  submenu
+                  opacity-0
+                  transition-opacity
+                  duration-300
+                  bg-mainDark
+                  shadow-sm
+                  border border-white
+                  rounded-md
+                  p-3
+                  absolute
+                  top-full
+                  hidden
+                  flex-col
+                  text-white text-sm
+                  min-w-[160px]
+                "
+              >
+                <a
+                  href="#"
+                  class="
+                    flex
+                    items-center
+                    justify-between
+                    transition-colors
+                    hover:text-accent
+                  "
+                  data-scroll="#arabic"
+                >
+                  <div class="">Arab tili</div>
+                  <div class="">
+                    <img src="img/icons/saudi-arabia.png" width="26" alt="" />
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="
+                    flex
+                    items-center
+                    justify-between
+                    mt-3
+                    transition-colors
+                    hover:text-accent
+                  "
+                  data-scroll="#english"
+                >
+                  <div class="">Ingliz tili</div>
+                  <div class="">
+                    <img src="img/icons/united-kingdom.png" width="26" alt="" />
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="
+                    flex
+                    items-center
+                    justify-between
+                    mt-3
+                    transition-colors
+                    hover:text-accent
+                  "
+                  data-scroll="#russian"
+                >
+                  <div class="">Rus tili</div>
+                  <div class="">
+                    <img src="img/icons/russia.png" width="26" alt="" />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="nav-item" data-scroll="#prices">Narxlar</div>
+            <div class="nav-item" data-scroll="#about">Biz haqimizda</div>
+            <div class="nav-item" data-scroll="#contact">Bog'lanish</div>
+          </div>
+          <div class="hidden md:flex items-center">
+            <div class="flex ml-3">
+              <a href="#" class="lang-item active">uz</a>
+              <a href="#" class="lang-item">ru</a>
+            </div>
+          </div>
+          <div class="burger">
+            <span class="burger__line"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <nav
+      class="
+        mini-nav
+        min-h-screen
+        md:max-w-md
+        w-full
+        bg-mainDark
+        fixed
+        top-0
+        -right-full
+        bottom-0
+        z-50
+        shadow-md
+        p-8
+      "
+    >
+      <div class="mt-24">
+        <div class="mt-4 space-y-5">
+          <div class="flex items-center mini-nav__item">
+            <div class="w-[15%]">
+              <img src="img/icons/house.svg" width="26" alt="" />
+            </div>
+            <a
+              href="#"
+              class="
+                text-sm
+                hover:text-orange2
+                transition-colors
+                duration-300
+                text-white
+              "
+              data-scroll="#top"
+              >Asosiy</a
+            >
+          </div>
+          <div class="">
+            <div class="flex items-center">
+              <div class="w-[15%]">
+                <img src="img/icons/graduation-cap.svg" width="26" alt="" />
+              </div>
+              <a
+                href="#"
+                class="
+                  mini-submenu__item
+                  mini-nav__link
+                  text-sm
+                  hover:text-orange2
+                  transition-colors
+                  duration-300
+                  text-white
+                  w-[70%]
+                "
+                >Kurslar</a
+              >
+              <div class="w-[15%] flex justify-end">
+                <img src="img/icons/right-arrow.svg" width="25" alt="" />
+              </div>
+            </div>
+            <div
+              class="
+                mini-submenu
+                ml-6
+                text-sm text-white
+                space-y-4
+                h-0
+                overflow-hidden
+                flex flex-col
+                justify-end
+              "
+            >
+              <div class="flex items-center mini-nav__item">
+                <div class="w-[12%]">
+                  <img src="img/icons/saudi-arabia.png" width="28" alt="" />
+                </div>
+                <a
+                  href="#"
+                  class="
+                    mini-nav__link
+                    hover:text-orange2
+                    transition-colors
+                    duration-300
+                  "
+                  data-scroll="#arabic"
+                  >Arab tili</a
+                >
+              </div>
+              <div class="flex items-center mini-nav__item">
+                <div class="w-[12%]">
+                  <img src="img/icons/united-kingdom.png" width="28" alt="" />
+                </div>
+                <a
+                  href="#"
+                  class="
+                    mini-nav__link
+                    hover:text-orange2
+                    transition-colors
+                    duration-300
+                  "
+                  data-scroll="#english"
+                  >Ingliz tili</a
+                >
+              </div>
+              <div class="flex items-center mini-nav__item">
+                <div class="w-[12%]">
+                  <img src="img/icons/russia.png" width="28" alt="" />
+                </div>
+                <a
+                  href="#"
+                  class="
+                    mini-nav__link
+                    hover:text-orange2
+                    transition-colors
+                    duration-300
+                  "
+                  data-scroll="#russian"
+                  >Rus tili</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center mini-nav__item">
+            <div class="w-[15%]">
+              <img src="img/icons/price-tag.svg" width="26" alt="" />
+            </div>
+            <a
+              href="#"
+              class="
+                mini-nav__link
+                text-sm
+                hover:text-orange2
+                transition-colors
+                duration-300
+                text-white
+              "
+              data-scroll="#prices"
+              >Narxlar</a
+            >
+          </div>
+          <div class="flex items-center mini-nav__item">
+            <div class="w-[15%]">
+              <img src="img/icons/information.svg" width="26" alt="" />
+            </div>
+            <a
+              href="#"
+              class="
+                mini-nav__link
+                text-sm
+                hover:text-orange2
+                transition-colors
+                duration-300
+                text-white
+              "
+              data-scroll="#about"
+              >Biz haqimizda</a
+            >
+          </div>
+          <div class="flex items-center mini-nav__item">
+            <div class="w-[15%]">
+              <img src="img/icons/complain.svg" width="26" alt="" />
+            </div>
+            <a
+              href="#"
+              class="
+                mini-nav__link
+                text-sm
+                hover:text-orange2
+                transition-colors
+                duration-300
+                text-white
+              "
+              data-scroll="#contact"
+              >Bog'lanish</a
+            >
+          </div>
+        </div>
+        <div class="flex md:hidden items-center justify-center my-6">
+          <div class="flex ml-3">
+            <a href="#" class="mini-lang__item active">uz</a>
+            <a href="#" class="mini-lang__item">ru</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="hero bg-hero section min-h-screen pt-6" id="top">
+      <main class="flex items-center container flex-wrap mt-16 px-4">
+        <div
+          class="w-full lg:w-1/2 order-2 lg:order-1 flex justify-center"
+          data-aos="fade-left"
+        >
+          <div class="">
+            <div class="">
+              <h1
+                class="
+                  font-headingFont
+                  text-lg
+                  md:text-xl
+                  lg:text-3xl
+                  leading-normal
+                  max-w-lg
+                "
+              >
+                <span class="text-accent font-semibold">"ABC Start"</span>– bu
+                oddiy o'quv markazi emas! Bu bekorchilarga o'rin bo'lmagan
+                asosiy bilimlar maskani!
+              </h1>
+            </div>
+            <p class="main-text my-5 max-w-lg">
+              Biz har bir talaba eng qimmatli ma'lumotlarni olishi va vaqtini
+              maroqli o'tkazishi uchun darslarimizga sidqidildan yondashamiz va
+              yuqori natijalar uchun harakat qilamiz.
+            </p>
+            <div class="flex gap-4 flex-wrap justify-center sm:justify-start">
+              <button class="btn-outlined w-11/12 sm:w-[48%]">
+                <div
+                  class="
+                    border-r border-aqua2
+                    py-3
+                    w-14
+                    flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <img src="img/icons/phone.png" width="18" alt="" />
+                </div>
+                <span class="flex justify-center w-full" data-scroll="#contact"
+                  >Bog'lanish</span
+                >
+              </button>
+              <button class="btn-filled w-11/12 sm:w-[48%]" data-scroll="#map">
+                <div
+                  class="
+                    border-r border-white
+                    py-3
+                    w-14
+                    flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <img src="img/icons/location.png" width="18" alt="" />
+                </div>
+                <span class="flex justify-center w-full" data-scroll="#map"
+                  >Bizning manzil</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            w-full
+            lg:w-1/2
+            order-1
+            lg:order-2
+            mb-8
+            lg:mb-0
+            flex
+            justify-center
+          "
+          data-aos="fade-right"
+        >
+          <img class="" src="img/hero-img.png" alt="" />
+        </div>
+      </main>
+    </section>
+    <!-- ========== Arabic ========== -->
+    <section class="arabic bg-arabic section" id="arabic">
+      <div class="container py-5 lg:py-8 px-4">
+        <div class="text-center">
+          <h1
+            class="
+              uppercase
+              text-xl
+              md:text-3xl
+              font-headingFont font-semibold
+              text-orange2
+            "
+          >
+            arab tili
+          </h1>
+          <div class="w-14 h-1 bg-alert flex justify-center mx-auto mt-2"></div>
+        </div>
+        <main class="bg-mainDark/80 p-5 mt-8 flex flex-wrap justify-between">
+          <div class="w-full lg:w-[48%]" data-aos="fade-right">
+            <div class="border-l-2 border-l-aqua2 pl-2">
+              <h3
+                class="
+                  leading-relaxed
+                  tracking-wider
+                  max-w-[260px]
+                  uppercase
+                  font-headingFont font-semibold
+                  text-white
+                "
+              >
+                Ha! Siz arab tilini o'rganishingiz kerak!
+              </h3>
+            </div>
+            <h4 class="my-5 text-white font-headingFont text-base font-bold">
+              Nima uchun deb o'ylaysizmi?!
+            </h4>
+            <ul class="text-sm leading-relaxed text-white/50 list-disc ml-4">
+              <li class="">
+                Arab tilida ko'plab foydali, tarjima qilinmagan qo'lyozma va
+                kitoblar mavjud. Arab tilini o'rganish orqali ularni
+                qiyinchiliksiz o'qiy olasiz
+              </li>
+              <li class="">
+                Siz arab mamlakatlariga sayohat qilishingiz, va u yerda hech
+                qanday to'siqlarsiz, noqulay vaziyatlarsiz ishlab, o'qishingiz
+                mumkin
+              </li>
+            </ul>
+            <ul
+              class="text-sm leading-relaxed text-white/50 ml-4 mt-4 space-y-1"
+            >
+              Bu kursda quyidagilarni mukammal o'rganasiz:
+              <li class="flex gap-2 items-center">
+                <img src="img/icons/checked-2.png" width="16" alt="" />
+                Arab tili grammatikasi;
+              </li>
+              <li class="flex gap-2 items-center">
+                <img src="img/icons/checked-2.png" width="16" alt="" />
+                Erkin so'zlashish;
+              </li>
+              <li class="flex gap-2 items-center">
+                <img src="img/icons/checked-2.png" width="16" alt="" />
+                Xatosiz yozish;
+              </li>
+              <li class="flex gap-2 items-center">
+                <img src="img/icons/checked-2.png" width="16" alt="" />
+                Arab tilida kitoblarni bemalol o'qish !
+              </li>
+            </ul>
+          </div>
+          <div class="w-full lg:w-[48%] mt-8 lg:mt-0" data-aos="fade-left">
+            <div class="border-l-2 border-l-aqua2 pl-2">
+              <h3
+                class="
+                  leading-relaxed
+                  tracking-wider
+                  max-w-lg
+                  uppercase
+                  font-headingFont font-semibold
+                  text-white
+                "
+              >
+                Sizning farzandingiz ham Arab Tilida chiroyli so'zlasha olishiga
+                ishonasizmi?
+              </h3>
+            </div>
+            <h4 class="my-5 text-white font-headingFont text-base font-bold">
+              Aziz ota-onalar, farzandingiz kelajagi uchun hoziroq ro'yxatdan
+              o'ting !
+            </h4>
+            <ul
+              class="
+                text-sm
+                leading-relaxed
+                text-white/50
+                list-disc
+                ml-4
+                max-w-lg
+              "
+            >
+              <li class="">
+                Farzandingiz Arab Tilidan 1 ta harf o'rganishi tarbiyasini
+                o'zgarishiga ta'sir qiladi !
+              </li>
+              <li class="">
+                Farzandlarimiz yonimizda arabiy kitoblar o'qib o'tirsa, siz-u
+                biz ota-onalarga bundanda ulug'vor baxt bo'lmasa kerak !
+              </li>
+            </ul>
+            <p class="text-sm leading-relaxed text-white/50 my-4">
+              Bizning arab tili kurslariga keling! Qo'rqmang, hoziroq yoziling
+              va biz sizga alifbo, to'g'ri yozish qoidalarini va muloqotni
+              o'rgatamiz.
+            </p>
+            <div
+              class="
+                flex
+                items-center
+                gap-4
+                my-4
+                flex-wrap
+                justify-center
+                sm:justify-start
+              "
+            >
+              <button class="btn-filled !bg-orange2 w-full sm:w-auto">
+                <span class="flex justify-center w-full"
+                  >Ro'yxatdan o'tish</span
+                >
+                <div
+                  class="
+                    border-l border-white
+                    py-3
+                    w-14
+                    flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <img src="img/icons/checked.png" width="20" alt="" />
+                </div>
+              </button>
+              <a
+                href="tel:+998935452030"
+                class="
+                  underline
+                  text-white
+                  w-full
+                  sm:w-auto
+                  text-center
+                  sm:text-left
+                  mt-2
+                  sm:mt-0
+                "
+                >+998 93 545 20 30</a
+              >
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+    <!-- ========== English ========== -->
+    <section class="english bg-english section" id="english">
+      <div class="container px-4">
+        <div class="text-center">
+          <h1
+            class="
+              uppercase
+              text-3xl
+              font-headingFont font-semibold
+              text-orange2
+            "
+          >
+            ingliz tili
+          </h1>
+          <div class="w-14 h-1 bg-aqua2 flex justify-center mx-auto mt-2"></div>
+        </div>
+        <main
+          class="
+            flex
+            items-center
+            justify-center
+            lg:justify-between
+            flex-wrap
+            my-8
+          "
+        >
+          <div
+            class="w-full lg:w-[48%] flex justify-center"
+            data-aos="fade-right"
+          >
+            <img src="img/english-img.png" alt="" />
+          </div>
+          <div class="w-full lg:w-[48%] mt-8 lg:mt-0" data-aos="fade-left">
+            <div class="border-l-2 border-l-aqua2 pl-2">
+              <h3
+                class="
+                  leading-relaxed
+                  tracking-wider
+                  uppercase
+                  font-headingFont font-semibold
+                "
+              >
+                Hozirda ingliz tilini o'rganish jadal ommalashgan. Chunki u
+                o'rganuvchiga qator imkoniyatlar hadya qiladi. Ular qanday
+                ekanligiga qiziqyapsizmi?
+              </h3>
+            </div>
+            <ul class="text-sm leading-relaxed mt-4 space-y-1 list-disc">
+              Demak, ingliz tilini bilish quyidagi imkoniyatlarga eshik ochadi:
+              <li class="ml-4">Yangi bilimlar egallashga yordam beradi</li>
+              <li class="ml-4">Chet davlatlarga chiqish mumkin bo'ladi;</li>
+              <li class="ml-4">Zamonaviy kasblarni o'rgansa bo'ladi.</li>
+            </ul>
+            <p class="main-text my-4">
+              ABC Start o’quv markazida ingliz tilini o'rganish va IELTSga
+              tayyorgarlik ko'rish uchun mashg'ulotlariga yozilishga ulguring!
+            </p>
+            <div
+              class="
+                flex
+                items-center
+                flex-wrap
+                justify-center
+                sm:justify-start
+                gap-4
+                my-4
+              "
+            >
+              <button class="btn-filled !bg-alert w-full sm:w-auto">
+                <span class="flex justify-center w-full"
+                  >Ro'yxatdan o'tish</span
+                >
+                <div
+                  class="
+                    border-l border-white
+                    py-3
+                    w-14
+                    flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <img src="img/icons/checked.png" width="20" alt="" />
+                </div>
+              </button>
+              <a
+                href="tel:+998935452030"
+                class="underline w-full sm:w-auto mt-2 text-center sm:mt-0"
+                >+998 93 545 20 30</a
+              >
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+    <!-- ========== Russian ========== -->
+    <section class="russian bg-russian section" id="russian">
+      <div class="container px-4">
+        <div class="text-center">
+          <h1
+            class="
+              uppercase
+              text-3xl
+              font-headingFont font-semibold
+              text-orange2
+            "
+          >
+            rus tili
+          </h1>
+          <div class="w-14 h-1 bg-alert flex justify-center mx-auto mt-2"></div>
+        </div>
+        <main class="flex items-center justify-between flex-wrap my-8">
+          <div
+            class="w-full lg:w-[48%] order-2 lg:order-1 mt-8 lg:mt-0"
+            data-aos="flip-right"
+          >
+            <div class="border-l-2 border-l-aqua2 pl-2">
+              <h3
+                class="
+                  leading-relaxed
+                  tracking-wider
+                  font-headingFont font-semibold
+                  text-base
+                "
+              >
+                Eng yangi texnologiyalarga oid maqolalar, mashhur kino va
+                kitoblar, sayohat, chet elda ta’lim olish, katta korxonalarda
+                istiqbolli ish — bularning barchasini nima birlashtiradi?
+                Albatta ingliz va rus tili!
+              </h3>
+            </div>
+            <ul class="text-sm leading-relaxed mt-4 space-y-1 list-disc">
+              <span class="font-semibold"
+                >Nima uchun sizga rus tili kerak?</span
+              >
+              <li class="ml-4">
+                Axborot: Kommersant, Lenta, Forbes, RT kabi nufuzli internet
+                resurslaridan eng dolzarb axborotni birinchilardan boʻlib
+                muhokama qiling.
+              </li>
+              <li class="ml-4">
+                Shaxsiy oʻsish: Rivojlangan shaharda doʻstlar orttirish yoki
+                professional faoliyat davomida rus tili sizga oʻzingizda ishonch
+                hosil qilish imkonini beradi.
+              </li>
+              <li class="ml-4">
+                Taʼlim: Oʻqish rus tilida olib boriladigan 1 000 dan ortiq
+                OTMʼlarda 296 001 ta byudjet va 700 000 dan ortiq
+                toʻlov-kontrakt boʻyicha oʻrinlardan biriga ega bo'ling.
+              </li>
+              <li class="ml-4">
+                Karyera: Rezyumengizdagi rus tilini bilish qobiliyati sizga
+                boshqa nomzodlardan ajralib turish imkonini beradi.
+              </li>
+            </ul>
+            <p class="main-text my-4">
+              ABC Start o’quv markazida ingliz tilini o'rganish va IELTSga
+              tayyorgarlik ko'rish uchun mashg'ulotlariga yozilishga ulguring!
+            </p>
+            <div
+              class="
+                flex
+                items-center
+                gap-4
+                my-4
+                flex-wrap
+                justify-center
+                sm:justify-start
+              "
+            >
+              <button class="btn-filled !bg-aqua2 w-full sm:w-auto">
+                <span class="flex justify-center w-full"
+                  >Ro'yxatdan o'tish</span
+                >
+                <div
+                  class="
+                    border-l border-white
+                    py-3
+                    w-14
+                    flex
+                    items-center
+                    justify-center
+                  "
+                >
+                  <img src="img/icons/checked.png" width="20" alt="" />
+                </div>
+              </button>
+              <a
+                href="tel:+998935452030"
+                class="
+                  underline
+                  w-full
+                  sm:w-auto
+                  text-center
+                  sm:text-left
+                  mt-2
+                  sm:mt-0
+                "
+                >+998 93 545 20 30</a
+              >
+            </div>
+          </div>
+          <div
+            class="w-full lg:w-[48%] order-1 lg:order-2 flex justify-center"
+            data-aos="flip-left"
+          >
+            <img src="img/russian-img.png" alt="" />
+          </div>
+        </main>
+      </div>
+    </section>
+    <!-- ========== Prices ========== -->
+    <section class="prices bg-prices bg-bottom section" id="prices">
+      <div class="container px-4">
+        <div class="text-center">
+          <h1
+            class="
+              uppercase
+              text-3xl
+              font-headingFont font-semibold
+              text-orange2
+            "
+          >
+            Narxlar
+          </h1>
+          <div class="w-14 h-1 bg-aqua2 flex justify-center mx-auto mt-2"></div>
+        </div>
+        <main
+          class="
+            flex
+            justify-between
+            flex-wrap
+            space-y-6
+            lg:space-y-0
+            my-8
+            main-text
+          "
+        >
+          <div
+            class="
+              shadow
+              rounded-lg
+              bg-white
+              p-5
+              w-full
+              lg:w-[32%]
+              flex flex-col
+              justify-between
+            "
+            data-aos="zoom-in-right"
+          >
+            <h4 class="text-center uppercase mb-4 text-lg font-semibold">
+              arab tili
+            </h4>
+            <ul class="list-disc space-y-1">
+              <span class="mb-4"
+                >Bu kursda quyidagilarni mukammal o'rganasiz:</span
+              >
+
+              <li class="ml-4">Arab tili grammatikasi;</li>
+              <li class="ml-4">Erkin so'zlashish;</li>
+              <li class="ml-4">Xatosiz yozish;</li>
+              <li class="ml-4">Arab tilida kitoblarni bemalol o'qish</li>
+            </ul>
+            <div class="my-8 space-y-1">
+              <div class="flex justify-between">
+                <div class="w-3/5">Katta guruh (8-10 kishilik)</div>
+                <div class="w-2/5">
+                  <span class="font-semibold">255 000</span> so’m
+                </div>
+              </div>
+              <div class="flex justify-between">
+                <div class="w-3/5">Individual</div>
+                <div class="w-2/5">
+                  <span class="font-semibold">1 200 000</span> so’m
+                </div>
+              </div>
+            </div>
+            <footer class="mt-6 flex justify-center">
+              <img src="img/icons/saudi-arabia.png" width="56" alt="" />
+            </footer>
+          </div>
+          <div
+            class="
+              shadow
+              rounded-lg
+              bg-white
+              p-5
+              w-full
+              lg:w-[32%]
+              flex flex-col
+              justify-between
+            "
+            data-aos="zoom-in-up"
+          >
+            <h4 class="text-center uppercase mb-4 text-lg font-semibold">
+              ingliz tili
+            </h4>
+            <p class="main-text">
+              ABC Start o’quv markazida ingliz tilini o'rganish va IELTSga
+              tayyorgarlik ko'rish uchun mashg'ulotlariga yozilishga ulguring!
+              O'zingiz uchun qulay vaqtni tanlab ingliz tilini o'rganishni
+              boshlang!
+            </p>
+            <div class="my-8 space-y-1">
+              <div class="flex justify-between">
+                <div class="w-3/5">Katta guruh (8-10 kishilik)</div>
+                <div class="w-2/5">
+                  <span class="font-semibold">320 000</span> so’m
+                </div>
+              </div>
+              <div class="flex justify-between">
+                <div class="w-3/5">Kichik guruh (4-6 kishilik)</div>
+                <div class="w-2/5">
+                  <span class="font-semibold">590 000</span> so’m
+                </div>
+              </div>
+              <div class="flex justify-between">
+                <div class="w-3/5">Individual</div>
+                <div class="w-2/5">
+                  <span class="font-semibold">980 000</span> so’m
+                </div>
+              </div>
+            </div>
+            <footer class="mt-6 flex justify-center">
+              <img src="img/icons/united-kingdom.png" width="56" alt="" />
+            </footer>
+          </div>
+          <div
+            class="
+              shadow
+              rounded-lg
+              bg-white
+              p-5
+              w-full
+              lg:w-[32%]
+              flex flex-col
+              justify-between
+            "
+            data-aos="zoom-in-left"
+          >
+            <h4 class="text-center uppercase mb-4 text-lg font-semibold">
+              rus tili
+            </h4>
+            <p class="main-text">
+              Rus tili kurslariga qatnashing va har doim o'zingizga ishonch
+              bilan muloqot qiling. Kattalar uchun kechki guruh ochilmoqda,
+              qatnashing va birinchi oy uchun chegirmaga ega bo'ling.
+            </p>
+            <div class="my-8 space-y-1">
+              <div class="flex justify-between">
+                <div class="w-3/5">Katta guruh (8-10 kishilik)</div>
+                <div class="w-2/5">
+                  <span class="font-semibold">320 000</span> so’m
+                </div>
+              </div>
+              <div class="flex justify-between">
+                <div class="w-3/5">Kichik guruh (4-6 kishilik)</div>
+                <div class="w-2/5">
+                  <span class="font-semibold">320 000</span> so’m
+                </div>
+              </div>
+              <div class="flex justify-between">
+                <div class="w-3/5">Individual</div>
+                <div class="w-2/5">
+                  <span class="font-semibold">980 000</span> so’m
+                </div>
+              </div>
+            </div>
+            <footer class="mt-6 flex justify-center">
+              <img src="img/icons/russia.png" width="56" alt="" />
+            </footer>
+          </div>
+        </main>
+      </div>
+    </section>
+    <!-- ========== Charity ========== -->
+    <section class="section bg-light">
+      <div class="container px-4">
+        <main class="flex justify-between flex-wrap">
+          <div class="w-full md:w-[48%] mt-6 md:mt-0" data-aos="flip-left">
+            <div class="border-l-2 border-l-aqua2 pl-2 mb-4 md:mb-8">
+              <h3
+                class="
+                  leading-relaxed
+                  tracking-wider
+                  font-headingFont font-semibold
+                "
+              >
+                O’qishga ishtiyoqi kuchli, lekin iqtisodiy yordamga muhtoj
+                bo’lgan talabalarga xayriya qilishingiz mumkin.
+              </h3>
+            </div>
+            <p class="main-text">
+              Siz bizning o’quv markazimizda bilim olish orqali, ilm olishga
+              xohish bor-u, lekin imkoniyati cheklangan yoshlarga xayriya qila
+              olasiz. Ya’ni siz yoningizdan ortiqcha pul to’lamaysiz, balki
+              to’lovingiz ularga ma’lum miqdorda o’tkazilinadi.
+            </p>
+          </div>
+          <div class="w-full md:w-[48%] mt-6 md:mt-0" data-aos="flip-right">
+            <div class="border-l-2 border-l-aqua2 pl-2 mb-4 md:mb-8">
+              <h3
+                class="
+                  leading-relaxed
+                  tracking-wider
+                  font-headingFont font-semibold
+                "
+              >
+                Aksincha, siz ilm olmoqchisiz-u, ammo imkoniyatingiz bo’lmasa,
+                o’quv markazimizda chegirma asosida ta’lim olishingiz mumkin.
+              </h3>
+            </div>
+            <p class="main-text">
+              Unda "Bilim oling va xayriya qiling" aksiyasi siz uchun – bu oddiy
+              aksiya emas. ️Kurslarimiz 7 yoshdan 70 yoshgacha bo'lgan barcha
+              uchun to'gri tanlov bo'la oladi.
+            </p>
+          </div>
+        </main>
+        <footer class="flex justify-center mt-6">
+          <img src="img/icons/giftbox.png" width="78" alt="" />
+        </footer>
+      </div>
+    </section>
+    <!-- ========== About us ========== -->
+    <section
+      class="
+        about
+        bg-gradient-to-r
+        from-[#96BDC3]
+        via-light
+        to-[#B4D5DC]
+        bg-bottom
+        section
+      "
+      id="about"
+    >
+      <div class="container px-4">
+        <div class="text-center">
+          <h1
+            class="
+              uppercase
+              text-3xl
+              font-headingFont font-semibold
+              text-orange2
+            "
+          >
+            Biz haqimizda
+          </h1>
+          <div class="w-14 h-1 bg-aqua2 flex justify-center mx-auto mt-2"></div>
+        </div>
+        <main class="flex items-center justify-between flex-wrap mt-4">
+          <div
+            class="w-full lg:w-[48%] mt-8 lg:mt-0 flex justify-center"
+            data-aos="flip-up"
+          >
+            <img src="img/aboutimg.png" alt="" />
+          </div>
+          <div class="w-full lg:w-[48%] mt-8 lg:mt-0" data-aos="flip-left">
+            <div class="border-l-2 border-l-aqua2 pl-2 mb-4 lg:mb-8">
+              <h3
+                class="
+                  leading-relaxed
+                  tracking-wider
+                  font-headingFont font-semibold
+                "
+              >
+                "ABC Start" – bu oddiy o'quv markazi emas! Bu bekorchilarga
+                o'rin bo'lmagan asosiy bilimlar maskani!
+              </h3>
+            </div>
+            <p class="main-text !leading-loose">
+              ABC Start jamoasi siz va farzandlaringizga til o’rganish
+              jarayonida dunyoqarashni kengaytirish, tanqidiy fikrlashni
+              rivojlantirish, o’z qiziqishlaringizni aniqlash va shu tariqa
+              hayotingizdagi o’rningizni aniqlab olish imkoniyatini beradi. Agar
+              siz ham zamon bilan hamnafas bo'lishni, xorijiy tillarda bemalol
+              muloqot qilishni, shu bilan birga o’quv jarayoni qiziqarli va
+              ajoyib guruh davrasida o’tishini istasangiz, unda tezroq Abcsmart
+              kurslariga yoziling! Biz har bir talaba eng qimmatli ma'lumotlarni
+              olishi va vaqtini maroqli o'tkazishi uchun darslarimizga
+              sidqidildan yondashamiz va yuqori natijalar uchun harakat qilamiz.
+              "ABC Start" o’quv dasturi quyidagilardan iborat: Ingliz tili Rus
+              tili Arab tili Kurslarimiz 7 yoshdan 70 yoshgacha bo'lagn barcha
+              uchun to'gri tanlov bo'la oladi
+            </p>
+          </div>
+        </main>
+      </div>
+    </section>
+    <!-- ========== Superiority ========== -->
+    <section class="section bg-mainDark">
+      <div class="container px-4">
+        <div class="text-center">
+          <h1
+            class="uppercase text-xl font-headingFont font-semibold text-accent"
+          >
+            Bizni raqobatchilardan nima farqlab turadi?
+          </h1>
+          <div
+            class="w-14 h-1 bg-orange2 flex justify-center mx-auto mt-2"
+          ></div>
+        </div>
+        <main
+          class="flex items-center justify-between flex-wrap my-6 space-y-6"
+        >
+          <div
+            class="flex items-center gap-6 w-full md:w-[48%] lg:w-[32%]"
+            data-aos="zoom-in"
+          >
+            <div class="w-11 h-11 bg-white flex items-center justify-center">
+              <img src="img/icons/star.png" width="24" alt="" />
+            </div>
+            <div class="text-white text-sm leading-relaxed md:max-w-[200px]">
+              Professional o'qituvchilar boshchiligidagi darslar;
+            </div>
+          </div>
+          <div
+            class="flex items-center gap-6 w-full md:w-[48%] lg:w-[32%]"
+            data-aos="zoom-in"
+          >
+            <div class="w-11 h-11 bg-white flex items-center justify-center">
+              <img src="img/icons/star.png" width="24" alt="" />
+            </div>
+            <div class="text-white text-sm leading-relaxed md:ax-w-[200px]">
+              Yangi uslullarda an`anaviy o'qitish tizimi;
+            </div>
+          </div>
+          <div
+            class="flex items-center gap-6 w-full md:w-[48%] lg:w-[32%]"
+            data-aos="zoom-in"
+          >
+            <div class="w-11 h-11 bg-white flex items-center justify-center">
+              <img src="img/icons/star.png" width="24" alt="" />
+            </div>
+            <div class="text-white text-sm leading-relaxed md:max-w-[200px]">
+              Shinam do'stona muhit
+            </div>
+          </div>
+          <div
+            class="flex items-center gap-6 w-full md:w-[48%] lg:w-[32%]"
+            data-aos="zoom-in"
+          >
+            <div class="w-11 h-11 bg-white flex items-center justify-center">
+              <img src="img/icons/star.png" width="24" alt="" />
+            </div>
+            <div class="text-white text-sm leading-relaxed md:max-w-[200px]">
+              Zamonaviy o'quv qo'llanmalar;
+            </div>
+          </div>
+          <div
+            class="flex items-center gap-6 w-full md:w-[48%] lg:w-[32%]"
+            data-aos="zoom-in"
+          >
+            <div class="w-11 h-11 bg-white flex items-center justify-center">
+              <img src="img/icons/star.png" width="24" alt="" />
+            </div>
+            <div class="text-white text-sm leading-relaxed md:max-w-[200px]">
+              Xar bir o'quvchi uchun individual yondashuv;
+            </div>
+          </div>
+          <div
+            class="flex items-center gap-6 w-full md:w-[48%] lg:w-[32%]"
+            data-aos="zoom-in"
+          >
+            <div class="w-11 h-11 bg-white flex items-center justify-center">
+              <img src="img/icons/star.png" width="24" alt="" />
+            </div>
+            <div class="text-white text-sm leading-relaxed md:max-w-[200px]">
+              Ingliz tilida kino va multfilmlar
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <!-- ========== Contact ========== -->
+    <section class="section" id="contact">
+      <div class="container px-4">
+        <div class="text-center">
+          <h1
+            class="uppercase text-xl font-headingFont font-semibold text-accent"
+          >
+            Biz bilan bog'lanish
+          </h1>
+          <div
+            class="w-14 h-1 bg-orange2 flex justify-center mx-auto mt-2"
+          ></div>
+        </div>
+        <main class="flex justify-between flex-wrap my-8">
+          <div class="w-full md:w-[48%]" data-aos="zoom-in-right">
+            <div class="border-l-2 border-l-aqua2 pl-2 mb-8">
+              <h3
+                class="
+                  leading-relaxed
+                  tracking-wider
+                  font-headingFont font-semibold
+                "
+              >
+                Kurslarga ro’yxatdan o’tish uchun quyidagi ma’lumotlarni
+                to’ldirib, bizga yuboring. Biz Siz bilan tezda aloqaga chiqamiz!
+              </h3>
+            </div>
+            <form action="" class="space-y-4 flex flex-col items-center">
+              <div class="max-w-md w-full">
+                <input
+                  type="text"
+                  class="input box-border"
+                  placeholder="Ism va Familiya"
+                />
+              </div>
+              <div class="max-w-md w-full">
+                <input
+                  type="text"
+                  class="input box-border"
+                  placeholder="Tel. raqami"
+                />
+              </div>
+              <div class="max-w-md w-full">
+                <input
+                  type="text"
+                  class="input box-border"
+                  placeholder="Kurs nomi"
+                />
+              </div>
+              <div class="flex justify-center">
+                <button class="btn-filled !bg-orange2">
+                  <span class="flex justify-center w-full mx-2"
+                    >Ro'yxatdan o'tish</span
+                  >
+                  <div
+                    class="
+                      border-l border-white
+                      py-3
+                      w-14
+                      flex
+                      items-center
+                      justify-center
+                    "
+                  >
+                    <img src="img/icons/arrow-right.png" width="20" alt="" />
+                  </div>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div
+            class="w-full md:w-[48%] mt-6 md:mt-0 max-w-md mx-auto"
+            data-aos="zoom-in-left"
+          >
+            <h4 class="font-semibold text-lg text-center">
+              Bog'lanish uchun ma'lumot
+            </h4>
+            <main class="main-text my-8 space-y-4">
+              <div class="flex items-center gap-2">
+                <div class="w-[5%] flex justify-center">
+                  <img src="img/icons/location-alt.png" width="28" alt="" />
+                </div>
+                <div class="w-[95%]">
+                  <span class="font-semibold">Manzil: </span>
+                  Shayxontohur tumani, Ko’kcha darvoza ko’chasi, 314 uy, 2
+                  qavat, 16 xona
+                </div>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-[5%] flex justify-center">
+                  <img src="img/icons/location-alt.png" width="28" alt="" />
+                </div>
+                <div class="w-[95%]">
+                  <span class="font-semibold">Orientir: </span>
+                  Shahar Klinik Kasalxonasi № 1; Diydor choyxonasi; Omad
+                  supermarket
+                </div>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-[5%] flex justify-center">
+                  <img src="img/icons/phone-alt.png" width="24" alt="" />
+                </div>
+                <a href="tel:+998935452030" class="w-[95%]">
+                  <span class="font-semibold">Telefon: </span>
+                  +998 93 545 20 30
+                </a>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-[5%] flex justify-center">
+                  <img src="img/icons/letter.png" width="24" alt="" />
+                </div>
+                <a href="mailto:info@abcstart.uz" class="w-[95%]">
+                  <span class="font-semibold">email: </span>
+                  info@abcstart.uz
+                </a>
+              </div>
+              <div class="social mx-auto my-4">
+                <a
+                  href="https://www.instagram.com/abcstart_/"
+                  class="hover:-translate-y-1 transition-transform duration-300"
+                >
+                  <img src="img/icons/instagram-white.png" width="23" alt="" />
+                </a>
+                <a
+                  href="#"
+                  class="hover:-translate-y-1 transition-transform duration-300"
+                >
+                  <img src="img/icons/facebook-white.png" width="23" alt="" />
+                </a>
+                <a
+                  href="https://t.me/abcstart_channel"
+                  class="hover:-translate-y-1 transition-transform duration-300"
+                >
+                  <img src="img/icons/telegram-white.png" width="23" alt="" />
+                </a>
+                <a
+                  href="#"
+                  class="hover:-translate-y-1 transition-transform duration-300"
+                >
+                  <img src="img/icons/mail-white.png" width="23" alt="" />
+                </a>
+              </div>
+            </main>
+          </div>
+        </main>
+      </div>
+    </section>
+    <!-- ========== Map ========== -->
+    <section class="map" id="map">
+      <script
+        type="text/javascript"
+        charset="utf-8"
+        async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A61fbad8d27a6c1027ef958c2f1f57078486c7e72c6d130711fc5fc9af4bcaaf8&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"
+      ></script>
+    </section>
+    <!-- ========== Footer ========== -->
+    <footer class="pt-8 bg-deep light-text">
+      <div class="container px-4">
+        <main class="flex justify-between flex-wrap">
+          <div class="w-full md:w-full lg:w-1/2">
+            <a href="index.html">
+              <img src="img/logo.png" alt="" />
+            </a>
+            <p class="mt-6 max-w-md text-xs leading-loose">
+              Eng yangi texnologiyalarga oid maqolalar, mashhur kino va
+              kitoblar, sayohat, chet elda ta’lim olish, katta korxonalarda
+              istiqbolli ish — bularning barchasini nima birlashtiradi? Albatta
+              ingliz va rus tili! ABC Start jamoasi siz va farzandlaringizga til
+              o’rganish jarayonida dunyoqarashni kengaytirish, tanqidiy
+              fikrlashni rivojlantirish, o’z qiziqishlaringizni aniqlash va shu
+              tariqa hayotingizdagi o’rningizni aniqlab olish imkoniyatini
+              beradi.
+            </p>
+          </div>
+          <div class="w-full md:w-1/5 lg:w-1/5">
+            <h3 class="capitalize text-white font-semibold text-xl my-8">
+              menu
+            </h3>
+            <nav class="space-y-2 flex flex-col">
+              <a
+                href="#"
+                data-scroll="#top"
+                class="hover:text-white transition-colors duration-300"
+                >Asosiy</a
+              >
+              <a
+                href="#"
+                data-scroll="#arabic"
+                class="hover:text-white transition-colors duration-300"
+                >Arab tili</a
+              >
+              <a
+                href="#"
+                data-scroll="#english"
+                class="hover:text-white transition-colors duration-300"
+                >Ingliz tili</a
+              >
+              <a
+                href="#"
+                data-scroll="#russian"
+                class="hover:text-white transition-colors duration-300"
+                >Rus tili</a
+              >
+              <a
+                href="#"
+                data-scroll="#prices"
+                class="hover:text-white transition-colors duration-300"
+                >Narxlar</a
+              >
+              <a
+                href="#"
+                data-scroll="#about"
+                class="hover:text-white transition-colors duration-300"
+                >Biz haqimizda</a
+              >
+            </nav>
+          </div>
+          <div class="w-full md:w-3/4 lg:w-[30%]">
+            <h3 class="capitalize text-white font-semibold text-xl my-8">
+              bog'lanish
+            </h3>
+            <nav class="space-y-2 flex flex-col">
+              <main class="main-text space-y-4">
+                <div class="flex items-center gap-2">
+                  <div class="w-[5%] flex justify-center">
+                    <img src="img/icons/location-alt.png" width="28" alt="" />
+                  </div>
+                  <div class="w-[95%]">
+                    <span class="font-semibold">Manzil: </span>
+                    Shayxontohur tumani, Ko’kcha darvoza ko’chasi, 314 uy, 2
+                    qavat, 16 xona
+                  </div>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="w-[5%] flex justify-center">
+                    <img src="img/icons/location-alt.png" width="28" alt="" />
+                  </div>
+                  <div class="w-[95%]">
+                    <span class="font-semibold">Orientir: </span>
+                    Shahar Klinik Kasalxonasi № 1; Diydor choyxonasi; Omad
+                    supermarket
+                  </div>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="w-[5%] flex justify-center">
+                    <img src="img/icons/phone-alt.png" width="24" alt="" />
+                  </div>
+                  <a href="tel:+998935452030" class="w-[95%]">
+                    <span class="font-semibold">Telefon: </span>
+                    +998 93 545 20 30
+                  </a>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="w-[5%] flex justify-center">
+                    <img src="img/icons/letter.png" width="24" alt="" />
+                  </div>
+                  <a href="mailto:info@abcstart.uz" class="w-[95%]">
+                    <span class="font-semibold">email: </span>
+                    info@abcstart.uz
+                  </a>
+                </div>
+              </main>
+            </nav>
+          </div>
+        </main>
+        <div class="footer-bottom border-t border-white/60 py-7 mt-8 text-xs">
+          <div class="flex items-center justify-between flex-wrap">
+            <div class="w-full sm:w-[48%] lg:w-auto">
+              © 2018- <span id="year"></span>. ООО “ABC Start”. All rights
+              reserved.
+            </div>
+            <div
+              class="
+                flex
+                gap-2
+                w-full
+                sm:w-[48%] sm:justify-center
+                lg:w-auto
+                mt-4
+                lg:mt-0
+              "
+            >
+              <a
+                href="https://www.instagram.com/abcstart_/"
+                class="hover:-translate-y-1 transition-transform duration-300"
+                target="_blank"
+              >
+                <img src="img/icons/instagram-rounded.png" width="30" alt="" />
+              </a>
+              <a
+                href=""
+                class="hover:-translate-y-1 transition-transform duration-300"
+                target="_blank"
+              >
+                <img src="img/icons/facebook-rounded.png" width="30" alt="" />
+              </a>
+              <a
+                href="https://t.me/abcstart_channel"
+                class="hover:-translate-y-1 transition-transform duration-300"
+                target="_blank"
+              >
+                <img src="img/icons/telegram-rounded.png" width="30" alt="" />
+              </a>
+              <a
+                href=""
+                class="hover:-translate-y-1 transition-transform duration-300"
+                target="_blank"
+              >
+                <img src="img/icons/mail-rounded.png" width="30" alt="" />
+              </a>
+            </div>
+            <div
+              class="
+                coded
+                flex
+                items-center
+                gap-2
+                w-full
+                lg:w-auto
+                mt-4
+                justify-end
+                lg:justify-start
+              "
+            >
+              <div class="">Designed and coded by:</div>
+              <a href="https://almsoft.uz" target="_blank" class="">
+                <img src="img/alm-logo.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div
+      class="
+        toTop
+        fixed
+        bottom-6
+        left-6
+        shadow-sm
+        flex
+        items-center
+        justify-center
+        opacity-0
+        z-40
+        pointer-events-none
+      "
+      id="toTop"
+      data-scroll="#top"
+    >
+      <img src="img/icons/up.svg" width="55" alt="" />
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
